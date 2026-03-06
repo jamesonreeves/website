@@ -81,7 +81,7 @@ const RevenueSimulator: React.FC = () => {
         </div>
       </div>
 
-      <div style={{ marginBottom: '3rem', borderBottom: '1px solid var(--border-subtle)', pb: '2rem' }}>
+      <div style={{ marginBottom: '3rem', borderBottom: '1px solid var(--border-subtle)', paddingBottom: '2rem' }}>
         <label style={{ display: 'block', fontSize: '0.65rem', marginBottom: '1rem', color: 'var(--cobalt)' }}>
           DISTRIBUTION TYPE
         </label>
