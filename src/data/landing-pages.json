@@ -1,0 +1,16 @@
+[
+  {
+    "slug": "city-of-ny",
+    "company": "City of New York",
+    "role": "Senior Urban Planner",
+    "intro": "I am excited to apply for the Senior Urban Planner role at the City of New York. My background in data-driven transit optimization aligns perfectly with your 2026 goals.",
+    "featuredProjectIds": ["urban-planning-1"]
+  },
+  {
+    "slug": "tech-startup",
+    "company": "NextGen Tech",
+    "role": "Frontend Engineer",
+    "intro": "My transition from urban planning to software engineering has given me a unique perspective on user-centric design and problem-solving.",
+    "featuredProjectIds": ["digital-product-1"]
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "id": "revenue-modeling",
+    "title": "Revenue Modeling & Forecasting",
+    "description": "Built, owned, and maintained complex revenue models for budgeting and scenario planning.",
+    "insight": "Forecasts aren't about being right—they're about understanding the sensitivities. I built models that allow leadership to see exactly how a 1% change in NRR affects our 24-month cash position.",
+    "category": "Strategic Finance",
+    "interactive": true,
+    "tags": ["Excel/G-Sheets", "Financial Modeling", "Scenario Planning"]
+  },
+  {
+    "id": "pubnub-revenue",
+    "title": "Revenue Architecture & Pricing Strategy",
+    "description": "Designed and led a cross-functional initiative to restructure pricing for contract customers at PubNub.",
+    "insight": "Pricing is often the most under-utilized lever in SaaS. I approached this as a logic problem: how do we lift revenue 6% without increasing churn? The answer was in the segmentation data.",
+    "category": "Strategic Operations",
+    "tags": ["dbt", "Statistical Modeling", "Revenue Forecasting"]
+  },
+  {
+    "id": "lyft-micromobility",
+    "title": "Zero-to-One: Lyft Dockless E-Bikes",
+    "description": "Critical player in launching Lyft's flagship dockless e-bike program.",
+    "insight": "Operating in high-ambiguity environments requires a 'builder' mindset. At Lyft, I learned that scaling a physical product is 10% strategy and 90% operational architecture.",
+    "category": "Innovation & Ops",
+    "tags": ["Market Analysis", "Operational Planning", "Product Launch"]
+  },
+  {
+    "id": "data-infrastructure",
+    "title": "Full-Stack Data Lifecycle Management",
+    "description": "Building robust pipelines and surfacing executive-level insights.",
+    "insight": "I believe a great data leader must be able to write the SQL and then explain the 'Why' to the CEO. I manage the entire stack so nothing is lost in translation.",
+    "category": "Data Engineering",
+    "tags": ["Python", "SQL", "dbt", "Looker"]
+  }
+]
