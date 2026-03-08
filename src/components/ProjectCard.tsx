@@ -11,6 +11,7 @@ interface Project {
   interactive?: boolean;
   tags?: string[];
   image?: string;
+  gallery?: string[];
 }
 
 const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
@@ -34,6 +35,25 @@ const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
       <p className="project-description">
         {showFullDescription ? project.full_description : project.description}
       </p>
+
+      {showFullDescription && project.gallery && project.gallery.length > 1 && (
+        <div style={{ 
+          display: 'grid', 
+          gridTemplateColumns: '1fr', 
+          gap: '1rem', 
+          marginTop: '2rem',
+          marginBottom: '2rem' 
+        }}>
+          {project.gallery.slice(1).map((img, i) => (
+            <img 
+              key={i} 
+              src={img} 
+              alt={`${project.title} gallery ${i}`} 
+              style={{ width: '100%', height: 'auto', border: '1px solid var(--border-subtle)' }}
+            />
+          ))}
+        </div>
+      )}
 
       {project.full_description && (
         <button 

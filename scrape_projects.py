@@ -59,13 +59,26 @@ def get_project_details(project_url, thumb_title):
 
         # Images on the page
         page_images = []
-        for img in soup.find_all('img'):
+        gallery = []
+        
+        # Squarespace specific: find all images with data-src
+        img_tags = soup.find_all('img')
+        for i, img in enumerate(img_tags):
             src = img.get('data-src') or img.get('src')
             if src and 'squarespace-cdn' in src:
                 clean_src = src.split('?')[0]
-                page_images.append(clean_src)
+                if clean_src not in page_images:
+                    page_images.append(clean_src)
+                    
+                    # Generate a unique filename for each gallery image
+                    safe_title = re.sub(r'[^a-zA-Z0-9]', '_', thumb_title.lower()).strip('_')
+                    img_filename = f"{safe_title}_img_{i}.jpg"
+                    
+                    print(f"    Downloading gallery image {i}...")
+                    if download_image(clean_src, img_filename):
+                        gallery.append(f"/assets/{img_filename}")
                 
-        return title, description, page_images
+        return title, description, gallery
     except Exception as e:
         print(f"  Error scraping {project_url}: {e}")
         return thumb_title, "", []
@@ -89,14 +102,9 @@ def scrape_portfolio():
         thumb_title_tag = thumb.find('div', class_='project-title')
         thumb_title = thumb_title_tag.get_text(strip=True) if thumb_title_tag else f"Project {i}"
         
-        img_tag = thumb.find('img')
-        thumb_src = img_tag.get('data-src') or img_tag.get('src') if img_tag else None
-        
-        actual_title, description, page_images = get_project_details(project_url, thumb_title)
+        actual_title, description, gallery = get_project_details(project_url, thumb_title)
         
         title = actual_title if actual_title else thumb_title
-        
-        main_image_url = page_images[0] if page_images else thumb_src
         
         # Handle title/category splitting if it's like "Title / Category"
         category = "Strategic Finance" # Default or placeholder
@@ -115,13 +123,7 @@ def scrape_portfolio():
         elif "Selection" in title:
             category = "Photography"
 
-        clean_name = re.sub(r'[^a-zA-Z0-9]', '_', title.lower()).strip('_')
-        filename = f"{clean_name}.jpg" if clean_name else f"project_{i}.jpg"
-
-        print(f"  Downloading image for {title} (Filename: {filename})...")
-        image_path = f"/assets/{filename}"
-        if not download_image(main_image_url, filename):
-            image_path = ""
+        main_image = gallery[0] if gallery else ""
 
         projects.append({
             "id": relative_url.strip('/'),
@@ -129,7 +131,8 @@ def scrape_portfolio():
             "description": description[:300] + ("..." if len(description) > 300 else ""),
             "full_description": description,
             "category": category,
-            "image": image_path,
+            "image": main_image,
+            "gallery": gallery,
             "tags": ["Imported", "Squarespace"],
             "url": project_url
         })

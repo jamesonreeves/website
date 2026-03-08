@@ -65,9 +65,12 @@ const Home: React.FC = () => {
             </p>
           </div>
           
-          <h1 className="hero-title" style={{ lineHeight: 1.3, fontWeight: 200 }}>
+          <h1 className="hero-title" style={{ marginBottom: '1.5rem', fontWeight: 200 }}>
             {formatRichText(home.hero.title)}
           </h1>
+          <p className="hero-definition">
+            {home.hero.definition}
+          </p>
           <p className="hero-subtitle">{home.hero.subtitle}</p>
         </header>
 

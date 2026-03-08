@@ -137,10 +137,9 @@ const BackgroundFlow: React.FC = () => {
         // START LABEL: "your business"
         if (currentIdx >= 0) {
           const pt = trendPathPoints[0];
-          const labelOpacity = Math.min(pathOpacity * 3, 0.4); 
-          ctx.font = '500 10px "JetBrains Mono"';
-          ctx.fillStyle = `rgba(229, 57, 53, ${labelOpacity})`;
-          ctx.textAlign = 'left';
+          const labelOpacity = Math.min(pathOpacity * 3, 0.4);
+          ctx.font = '500 10px "Inter"';
+          ctx.fillStyle = `rgba(229, 57, 53, ${labelOpacity})`;          ctx.textAlign = 'left';
           ctx.fillText('your business', pt.x + 10, pt.y + 20);
         }
 
@@ -149,10 +148,9 @@ const BackgroundFlow: React.FC = () => {
         if (currentIdx >= midPointIdx) {
           const pt = trendPathPoints[midPointIdx];
           const labelOpacity = Math.min(pathOpacity * 4, 0.6); // Make label more visible than the faint line
-          
-          ctx.font = '500 10px "JetBrains Mono"';
-          ctx.fillStyle = `rgba(229, 57, 53, ${labelOpacity})`;
-          ctx.textAlign = 'left';
+
+          ctx.font = '500 10px "Inter"';
+          ctx.fillStyle = `rgba(229, 57, 53, ${labelOpacity})`;          ctx.textAlign = 'left';
           
           // Draw the Label
           ctx.fillText('me', pt.x + 15, pt.y + 35);
