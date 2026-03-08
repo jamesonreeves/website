@@ -3,10 +3,15 @@
     "id": "revenue-modeling",
     "title": "Revenue Modeling & Forecasting",
     "description": "Built, owned, and maintained complex revenue models for budgeting and scenario planning.",
-    "insight": "Forecasts aren't about being right—they're about understanding the sensitivities. I built models that allow leadership to see exactly how a 1% change in NRR affects our 24-month cash position.",
+    "insight": "Forecasts aren't about being right\u2014they're about understanding the sensitivities. I built models that allow leadership to see exactly how a 1% change in NRR affects our 24-month cash position.",
     "category": "Strategic Finance",
     "interactive": true,
-    "tags": ["Excel/G-Sheets", "Financial Modeling", "Scenario Planning"]
+    "featured": true,
+    "tags": [
+      "Excel/G-Sheets",
+      "Financial Modeling",
+      "Scenario Planning"
+    ]
   },
   {
     "id": "pubnub-revenue",
@@ -14,7 +19,12 @@
     "description": "Designed and led a cross-functional initiative to restructure pricing for contract customers at PubNub.",
     "insight": "Pricing is often the most under-utilized lever in SaaS. I approached this as a logic problem: how do we lift revenue 6% without increasing churn? The answer was in the segmentation data.",
     "category": "Strategic Operations",
-    "tags": ["dbt", "Statistical Modeling", "Revenue Forecasting"]
+    "featured": true,
+    "tags": [
+      "dbt",
+      "Statistical Modeling",
+      "Revenue Forecasting"
+    ]
   },
   {
     "id": "lyft-micromobility",
@@ -22,7 +32,12 @@
     "description": "Critical player in launching Lyft's flagship dockless e-bike program.",
     "insight": "Operating in high-ambiguity environments requires a 'builder' mindset. At Lyft, I learned that scaling a physical product is 10% strategy and 90% operational architecture.",
     "category": "Innovation & Ops",
-    "tags": ["Market Analysis", "Operational Planning", "Product Launch"]
+    "featured": true,
+    "tags": [
+      "Market Analysis",
+      "Operational Planning",
+      "Product Launch"
+    ]
   },
   {
     "id": "data-infrastructure",
@@ -30,6 +45,938 @@
     "description": "Building robust pipelines and surfacing executive-level insights.",
     "insight": "I believe a great data leader must be able to write the SQL and then explain the 'Why' to the CEO. I manage the entire stack so nothing is lost in translation.",
     "category": "Data Engineering",
-    "tags": ["Python", "SQL", "dbt", "Looker"]
+    "featured": true,
+    "tags": [
+      "Python",
+      "SQL",
+      "dbt",
+      "Looker"
+    ]
+  },
+  {
+    "id": "ai-pubnub",
+    "title": "AI: Operations & BI Assistants",
+    "description": "Built LLM-powered (OpenAI) products to improve operations, enable sales, and empower business leaders: Sales Assistant and BI Assistant.",
+    "full_description": "To amplify my impact as a one-person team, I built two products leveraging OpenAI\u2019s o1-mini API to improve operations, enable sales, and empower business leaders: Sales Assistant and BI Assistant. The Sales Assistant allows for sales reps to ask about a newly assigned lead, and it would provide the rep with 1) a summary of the prospect based on all data we had on them in our system, prioritizing messages they sent us and product usage, 2) a summary of the account they were associated based on a web crawl and our internal data, and 3) a personalized draft email they could use for outreach. BI Assistant: The BI Assistant allowed for business leaders to ask intermediate questions to get quick answers, therefore reducing reliance on me for simpler tasks. Once prompted, the assistant asks ChatGPT to generate SQL queries and Python scripts that answer the question. Then using the response, the assistant pulls our internal data using the SQL and processes it in Python and displays it using plotly.",
+    "category": "Strategic Operations",
+    "image": "/assets/ai.jpg",
+    "featured": true,
+    "tags": [
+      "OpenAI API",
+      "Python",
+      "SQL",
+      "Operations"
+    ],
+    "url": "https://www.jamesonreeves.com/ai-pubnub/"
+  },
+  {
+    "id": "analytics-and-strategy-pubnub",
+    "title": "Analytics and Strategy",
+    "description": "During my time at PubNub, I leveraged my leadership, strategic vision, meticulous attention to detail, collaborative mindset, and ability to influence key stakeholders to spearhead and execute high-impact projects, driving growth across all stages of the marketing and sales funnel, as well as the pr...",
+    "full_description": "During my time at PubNub, I leveraged my leadership, strategic vision, meticulous attention to detail, collaborative mindset, and ability to influence key stakeholders to spearhead and execute high-impact projects, driving growth across all stages of the marketing and sales funnel, as well as the product user journey. As a result, I rose quickly from Sr. Data Analyst to Analytics Manager to Sr. Analytics Manager, my last role reporting directly to the CFO. I have detailed many initiatives I worked on below that were either impactful or illustrate how I approached a problem. C-Suite Influence I consistently and proactively communicated with the C-suite to start and enhance strategic initiatives. I\u2019ve detailed my work to increase prices and launch products on other pages, but it\u2019s worth noting other key wins here. Brand Awareness When our company was looking for direction, I demonstrated that, while our pipeline could be improved at any number of stages of the funnel, from generating more leads to getting better at winning more deals, the cascading effect of brand awareness and increasing visitors to our website would bring the largest value to our business (8% v 2% ARR gain). As a result, the CEO and CRO made brand awareness key focus area for the following two years. Monthly business reviews At one point, the CEO and myself would sit through 6 1-hour long departmental MBRs, as well as the Executive MBR that I led. Over the course of 6 months, I worked to convince the CEO and CFO that we could get more value from a single 2-hour MBR. I proposed a new structure for the Executive MBR, which included deep dives for each department and a focus on key initiatives. The result was greater visibility across the company into projects and outcomes, more collaboration, and more time dedicated to getting work done rather than creating decks. I constantly iterate based on feedback and my own vision. Revenue Operations When the new CRO introduced his vision for operations, it seemed disruptive based on incomplete discussions with his team. Recognizing that most of what he wanted was already in place, I scheduled a direct conversation and asked about his specific goals. I demonstrated that his desired outcome required only a minor adjustment to our existing process. He agreed, and we quickly executed the change. This success highlighted both the adaptability of the RevOps framework I designed two years prior and our ability to implement changes efficiently. Lead Scoring After observing a high volume of leads routed to sales with low conversion rate and volume to opportunities, I proposed a new approach to lead scoring. To build consensus, I showed the data telling the story of weak conversion among high volumes and built a model to illustrate how adjustments to scoring would have impacted opportunity creation in the previous year. The new approach modeled showed that we could have reduced the volume of leads routed to sales without losing the volume of existing opportunities. The Marketing team then adopted the strategy. As a result, we 5x\u2019d customer acquisition among sign ups while cutting routed leads in half. Building on the momentum of that win, I am leading an initiative to further improve scoring via segmentation. Contact Sales At the end of 2021, against my guidance, the growth marketing team decided to block contact sales submissions from freemail accounts. After two years of the team turning over, I was able to convince the new VP of growth to turn that channel back on by showing them the freemail cohort provided a steady, though small stream of revenue. However, I knew the sales team would find the majority of them to be spam, so I suggested a plan that added friction to the contact sales experience for freemail. Instead of being shown the booking calendar immediately on the website, they are sent an email with a link to the booking calendar. This revived channel brought in $60K eARR in the first two months, and continues to drive customer acquisition. Advertising While I built pipelines that tie our ad spend to website traffic, lead generation, opportunity creation, and customer acquisition that allows the team to self-serve, most recently I provided an analysis that first improved targeting, then recommended turning off spend. I demonstrated to our VP of Growth how we could better allocate ad spend on the Ethical Ads network by showing which pages new sign ups were coming from in addition to their product usage post spend. This resulted in targeting 10 sites, instead of hundreds. While the improvement continued to drive more sign ups and more product usage (+540% versus the previous month from the same channel), I found that other channels performed much better at converting not just at the top, but also down the funnel. Product Nurtures To incentive feature usage, I proposed specific product activation nurtures. I suggested a three email nurture that would start sending as soon as a user activated a feature for the first time. Immediately, we saw an uptick in usage (10%) among products that had associated nurtures, compared to products that didn\u2019t. Request Demo The Marketing team decided to test changing our Contact Sales CTA to a Request Demo CTA to increase submissions. While they achieved a greater volume of submissions, I brought in additional down-funnel data to show that we were converting to new opportunities at a significantly reduced rate and volume. As a result, I recommended they keep the Contact Sales CTA as it drove much greater value overall.",
+    "category": "PubNub",
+    "image": "/assets/analytics_and_strategy.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/analytics-and-strategy-pubnub/"
+  },
+  {
+    "id": "lynching-landscapes",
+    "title": "Lynching in the American Landscape",
+    "description": "This was my journey into truth and reconciliation. I believe it is my duty, as an American, to understand the depths of the history of the United States. I was taught one version of history, and it is time black and brown history became more than just a month, but a cornerstone of reality in this co...",
+    "full_description": "This was my journey into truth and reconciliation. I believe it is my duty, as an American, to understand the depths of the history of the United States. I was taught one version of history, and it is time black and brown history became more than just a month, but a cornerstone of reality in this country.\u00a0My hope is that this project helps advance the ideas of truth and reconciliation in the United States. Please visitLynching in the American Landscape, for more information, project updates, and blog entries. Below is the feed for the instagram I update for the project. Follow along on eitherInstagramorTwitter:@lynch_lands.",
+    "category": "A Record of Places and Victims\u2019 Stories",
+    "image": "/assets/lynching_in_the_american_landscape.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/lynching-landscapes/"
+  },
+  {
+    "id": "criminalized-landscape",
+    "title": "Criminalized Landscape",
+    "description": "I distilled over 400 spatial analyses into a summary set of compelling maps and graphics and presented them to a committee of professionals from a diverse set of disciplines, each of whom commented on my ability to clearly articulate my project and conclusions. A brief summary is below, though thefu...",
+    "full_description": "I distilled over 400 spatial analyses into a summary set of compelling maps and graphics and presented them to a committee of professionals from a diverse set of disciplines, each of whom commented on my ability to clearly articulate my project and conclusions. A brief summary is below, though thefull text is freely available. One aim of my thesis was to define a criminalized landscape, which came to be: A criminalized landscape is reified in the imaginations and conceptions of the public, as a place where criminal activity may or may not actually occur and is a place where control mechanisms are instituted as a result. It is spatial with definitive, yet varied, physical attributes. The abstract is quoted below for the entire project is as follows: This thesis is about the criminalized black and Latino landscapes of Oakland. It is my contention the political and corporate dynamics of the last century and a half produced perpetually criminalized landscapes, through mechanisms of discrimination (relating to people), control (relating to activity), and segregation (relating to space). Our current understanding of criminalization refers to people and activities, but there is no explicit definition of criminalization as it relates to space, therefore, the first step was to define a criminalized landscape. The method for defining criminalized landscapes involved extensive review of material regarding those who shape the urban landscape at an institutional level, as well as those who shape it at the individual level. Simultaneously, this method has contributed to the second aspect of the thesis. Using the definition as a point of departure, key historical moments in the development of Oakland were revealed to describe Oakland\u2019s history of criminalization. The next step was to spatialize those historical moments, and test the relationship between history and contemporary incidents, discretionary police stops, through regression analysis. Finally, through remapping and rethinking the criminalized landscape, images of past and present Oakland merge to formulate a vision for decriminalized landscape future. The goal of the thesis was to produce a work that both revealed and speculated. The revelations are too important to ignore, but are also too complex to consider fully in one project. Therefore, after a process of identifying and quantifying criminalized landscapes, I will propose a future scenario to assist landscape architects and planners in imagining possibilities that could change outcomes for the people of color who reside there. This thesis had four steps. The first was to define a criminalized landscape. The second was to narrate a criminalized landscape that exists in reality: Oakland, CA. This narrative pointed out alterations and demarcations to the built environment that were done in the name of reducing crime: criminalization. Then, I mapped these alterations and demarcations in order to run a statistical analysis testing a hypothesis that any area with a longer history of criminalization also had more police stops. This hypothesis is strongest when considered among all demographics and among African Americans. Finally, I collaged a reconfiguration of Oakland to rethink the criminalized landscape. The work was inspired by Dr. Victor Rios\u2019Punished: Policing the Lives of Black and Latino Boys.",
+    "category": "Oakland's Historically and Socially Constructed Image of Criminality",
+    "image": "/assets/criminalized_landscape.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/criminalized-landscape/"
+  },
+  {
+    "id": "citation-response",
+    "title": "Parking Citation Response",
+    "description": "By far one of the most challenging and nuanced projects I undertook while working on bikeshare was solving the problem of improperly parked bikes and the associated fines. We took a number of steps to reduce these citations via partnerships with the city, operations, and policy adjustments. Ultimate...",
+    "full_description": "By far one of the most challenging and nuanced projects I undertook while working on bikeshare was solving the problem of improperly parked bikes and the associated fines. We took a number of steps to reduce these citations via partnerships with the city, operations, and policy adjustments. Ultimately, my work saved $500k in fines, while leading to an improved operating environment that will save millions of dollars through the program\u2019s lifetime. Additionally, my work resulted in 1000+ bike racks being installed throughout San Francisco, and were located according to my recommendations. This was a project that occurred over four distinct steps, while also working with the city to improve the program policy requirements. Prior to launching ebikes, I created a simple suitability analysis, showing where bike parking was, where our service area would expand over time, and where we would need to drop bikes to maintain our serviceability requirements. We sent the intersection-level results to the city where they later installed bike racks. Prior to launching ebikes, I created a simple suitability analysis, showing where bike parking was, where our service area would expand over time, and where we would need to drop bikes to maintain our serviceability requirements. We sent the intersection-level results to the city where they later installed bike racks. After launching ebikes, I enhanced the analysis to look at which intersections our bikes were collecting based on ridership patterns and compared that to existing bike infrastructure (a few images from the slide deck describing this analysis are to the left). Again, we sent the intersection-level results to the city where they later installed bike racks. This was a parametric analysis, so we were able to send additional requests at a moment\u2019s notice, using new and/or historical data. I later added intersections with high citations as priority locations as well. After launching ebikes, I enhanced the analysis to look at which intersections our bikes were collecting based on ridership patterns and compared that to existing bike infrastructure (a few images from the slide deck describing this analysis are to the left). Again, we sent the intersection-level results to the city where they later installed bike racks. This was a parametric analysis, so we were able to send additional requests at a moment\u2019s notice, using new and/or historical data. I later added intersections with high citations as priority locations as well. After one month of operating, we began getting fines from the city. We had no intake system, so I managed the product for intake and response, which also allowed us to collect key data. A citation would be received via email, then parsed for data collection, then sent to a routing program to allocate jobs to the ground team. The software collected additional data on operation performance to keep the team accountable and provide a basis for contesting citations. After one month of operating, we began getting fines from the city. We had no intake system, so I managed the product for intake and response, which also allowed us to collect key data. A citation would be received via email, then parsed for data collection, then sent to a routing program to allocate jobs to the ground team. The software collected additional data on operation performance to keep the team accountable and provide a basis for contesting citations. Once the data about where and when infractions were occurring was flowing, I used machine learning to dynamically create a list of bikes for our operations team to \u201csweep\u201d prior to the city\u2019s investigators getting to the bikes and citing them. Instead of sweep the thousands of bikes on the ground, they just needed to focus on the ones most likely to receive a fine. Once the data about where and when infractions were occurring was flowing, I used machine learning to dynamically create a list of bikes for our operations team to \u201csweep\u201d prior to the city\u2019s investigators getting to the bikes and citing them. Instead of sweep the thousands of bikes on the ground, they just needed to focus on the ones most likely to receive a fine. Throughout those steps, we worked with the city to show the regressive nature of the citations. Ultimately, we succeeded in changing the policy so that some bikes received a fine, whereas the others received a warning. Using the two processes in place, our operations team was set up to properly respond; and our fines dropped by about 65%.",
+    "category": "Lyft Bikeshare",
+    "image": "/assets/parking_citation_response.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/citation-response/"
+  },
+  {
+    "id": "digital-landscape-preservation-sonoma-mountain-cemetery",
+    "title": "Digital Landscape Preservation",
+    "description": "After over 100 scans across 80-acres, I preserved the historic, and culturally important, cemetery digitally as a point cloud. The site was challenging due to its topographic complexity, limited view sheds, and numerous object obstructions. The project included developing a software that allows theS...",
+    "full_description": "After over 100 scans across 80-acres, I preserved the historic, and culturally important, cemetery digitally as a point cloud. The site was challenging due to its topographic complexity, limited view sheds, and numerous object obstructions. The project included developing a software that allows theSonoma Valley Historical Societyand the general public to search the 80-acre scan and isolate individual plots based on queries. This allows people to incorporate 3D representations of specific plots into their research and enriching that representation with information.",
+    "category": "Sonoma Mountain Cemetery",
+    "image": "/assets/digital_landscape_preservation.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/digital-landscape-preservation-sonoma-mountain-cemetery/"
+  },
+  {
+    "id": "precision-agriculture-benziger-family-winery",
+    "title": "Precision Agriculture",
+    "description": "I created an irrigation recommendation system by modeling water use at the near vine-level by ingesting data from lidar, soil moisture probes, temperature and humidity sensors I deployed throughout the property, and theWunderground weather station network. The results were recommendations for imrpov...",
+    "full_description": "I created an irrigation recommendation system by modeling water use at the near vine-level by ingesting data from lidar, soil moisture probes, temperature and humidity sensors I deployed throughout the property, and theWunderground weather station network. The results were recommendations for imrpoving irrigation practices at the Block level, and at a micro-watershed level. Blocks are defined by the vineyard managers, while the micro-watersheds were determined by a geospatial analysis I conducted. Considering recommendations at the watershed level allowed the vineyard managers to consider the downstream impacts of irrigating specific areas. Initial recommendations were done forBenziger Family Winery, with a later follow-up analysis conducted atConcannon Vineyard.",
+    "category": "Building A Sensor Mesh to Reduce Irrigation",
+    "image": "/assets/precision_agriculture.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/precision-agriculture-benziger-family-winery/"
+  },
+  {
+    "id": "operation-management",
+    "title": "Operation Management",
+    "description": "Theft and Loss Theft and loss is a major problem for the bikeshare program; these result from a number of factors, including operational mistakes and oversized fleets. Lyft bikes exist in different statuses, and each status represents allowed behaviors for the bikes. Keeping bikes in the proper stat...",
+    "full_description": "Theft and Loss Theft and loss is a major problem for the bikeshare program; these result from a number of factors, including operational mistakes and oversized fleets. Lyft bikes exist in different statuses, and each status represents allowed behaviors for the bikes. Keeping bikes in the proper status is an operational task, however, our operator was failing to switch statuses appropriately. In addition to working to keep our operator compliant, I devised the program, and led the cross-functional effort, to auto-switch statuses based on several criteria, and then fine-tuned it after analyzing performance. This process saved over $230k in avoided losses in the San Francisco market alone, and was a feature requested, then implemented, by all markets, across rideable. After Shelter-in-Place began during the covid-19 pandemic, I evaluated our contractor\u2019s capabilities of meeting KPIs at various fleet sizes. I made recommendations accordingly to reduce our fleet size which has resulted in over $215K in fewer losses Daily Management I was responsible for reporting and tracking daily metrics and raising issues when they came up. To facilitate this, I created a report for General Managers to view the most important metrics at glance (which you can see a sample of to the left). This included rides, availability, serviceability, operational performance, among others. This report was often cited as a favorite, and most useful, among the GMs, as well as Operations Managers. Geography As of June 2021,all shapes created for the Bay Wheels systemwere maintained and created by me. I worked with cross-functional teams to ensure changes did not conflict with plans and communicated them ahead of time. The initial boundaries were much smaller and required me to create robust geospatial analyses to determine, then gain buy-in from stakeholders within and outside the organization. From a relatively small area, I managed expansion to double our service area. The only region that we did not expand to while I was with the team, was Golden Gate Park. Additionally, I created No Parking Zones, either prior to a problem arising, or upon request (though I would challenge these when the implementation did not make sense). The result of these efforts has been a beautiful service area in app and, most importantly, a smooth riding experience system-wide.",
+    "category": "Lyft Bikeshare",
+    "image": "/assets/operation_management.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/operation-management/"
+  },
+  {
+    "id": "2020-selection",
+    "title": "2020 Selection",
+    "description": "This is a subset of my photography from 2020. Digital and film.",
+    "full_description": "This is a subset of my photography from 2020. Digital and film.",
+    "category": "Photography",
+    "image": "/assets/2020_selection.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/2020-selection/"
+  },
+  {
+    "id": "2019-selection",
+    "title": "2019 Selection",
+    "description": "This is a subset of my photography from 2019. Digital and film.",
+    "full_description": "This is a subset of my photography from 2019. Digital and film.",
+    "category": "Photography",
+    "image": "/assets/2019_selection.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/2019-selection/"
+  },
+  {
+    "id": "bywater-bread",
+    "title": "Bywater Bread",
+    "description": "I make sourdough bread, experimenting as I go along. Below is the feed for the instagram I update whenever I remember to add the latest loaves. Follow along on eitherInstagram:@bywater_bread. DM the instagram account to put in an order.",
+    "full_description": "I make sourdough bread, experimenting as I go along. Below is the feed for the instagram I update whenever I remember to add the latest loaves. Follow along on eitherInstagram:@bywater_bread. DM the instagram account to put in an order.",
+    "category": "Strategic Finance",
+    "image": "/assets/bywater_bread.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/bywater-bread/"
+  },
+  {
+    "id": "permit-application-scootershare",
+    "title": "Permit Application",
+    "description": "In 2019, Lyft applied to be part of the newly launched Scootershare program. While Lyft was not awarded, the application, the sectionsI worked on received the highest marks possible. Below are some quotes. In regards to \u201cDistribution Strategy,\u201d specifically \u201cMethods for deploying and redistributing ...",
+    "full_description": "In 2019, Lyft applied to be part of the newly launched Scootershare program. While Lyft was not awarded, the application, the sectionsI worked on received the highest marks possible. Below are some quotes. In regards to \u201cDistribution Strategy,\u201d specifically \u201cMethods for deploying and redistributing scooters consistent with Distribution Guidelines and Requirements,\u201d the judges wrote: This proposal includes unique approaches demonstrating the highest level of ability to solving known challenges and concerns, and substantially exceeding the minimum requirements because applicant provides phasing plan with maps, and their deployment methodology prioritizes Key Neighborhoods as well as locations that enhance access to transit and serve high travel corridors\u2026 In regards to \u201cEquitable Operations,\u201d specifically \u201cService to Key Neighborhoods, as defined in the Distribution Guidelines and Requirements,\u201d the judges wrote: This proposal substantially exceeds the minimum requirements because the applicant's deployment methodology prioritizes Key Neighborhoods as well as locations that enhance access to transit and serve high travel corridors. The application also commits to ensuring coverage and availability in Key Neighborhoods (propose dedicating 20% of the scooter fleet to service San Francisco residents who reside in Key Neighborhoods). Additionally, in each phase, regardless of permitted fleet size, Lyft will deploy scooters on a daily basis throughout the Key Neighborhoods, exceeding the minimum number of scooters outlined in the Minimum Threshold Table. In regards to \u201cEquitable Operations,\u201d specifically \u201cService to neighborhoods without existing powered scooter share service,\u201d the judges wrote: This proposal substantially exceeds the minimum requirements because the applicant commits to serving entire Core Service Area (including areas outside of existing scooter service areas), as well as Richmond District (if granted 2,500 scooters). Additionally, if granted 2,500 scooters, Lyft will add service to the northern portion of the Sunset in Phase 2 and to the southern portion, primarily West Portal, in Phase 3. Otherwise, Lyft will expand to the Richmond and a portion of the Presidio in Phase 2\u2026",
+    "category": "Lyft Scootershare",
+    "image": "/assets/permit_application.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/permit-application-scootershare/"
+  },
+  {
+    "id": "station-network-expansion",
+    "title": "Station Network Expansion",
+    "description": "I sited 100 bikeshare stations for the Lyft\u2019s Bay Wheels (fka Ford GoBike) system, of which at least60 were installedprior to my leaving Lyft. Several of these were in neighborhoods where the public\u2019s input made it a challenge to install. I supported the community outreach meetings to help bring mor...",
+    "full_description": "I sited 100 bikeshare stations for the Lyft\u2019s Bay Wheels (fka Ford GoBike) system, of which at least60 were installedprior to my leaving Lyft. Several of these were in neighborhoods where the public\u2019s input made it a challenge to install. I supported the community outreach meetings to help bring more stations to all San Francisco neighborhoods.",
+    "category": "Lyft Bikeshare",
+    "image": "/assets/station_network_expansion.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/station-network-expansion/"
+  },
+  {
+    "id": "2018-selection",
+    "title": "2018 Selection",
+    "description": "This is a subset of my photography from 2018. Digital.",
+    "full_description": "This is a subset of my photography from 2018. Digital.",
+    "category": "Photography",
+    "image": "/assets/2018_selection.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/2018-selection/"
+  },
+  {
+    "id": "process-masters-thesis",
+    "title": "Thesis Proposal Process",
+    "description": "Crafting the proposal for my thesis,Criminalized Landscape, was an intensive research process entailing multiple methods to understand space, time, and problem. I visited various neighborhoods around Oakland, taking photographs and drawing on the spot, while collaging back in the studio. I mapped po...",
+    "full_description": "Crafting the proposal for my thesis,Criminalized Landscape, was an intensive research process entailing multiple methods to understand space, time, and problem. I visited various neighborhoods around Oakland, taking photographs and drawing on the spot, while collaging back in the studio. I mapped police stops, arrests, race, and redlined neighborhoods, to understand how history impacted the criminalization of black and brown people in Oakland. I overlaid redlined neighborhoods onto property values to understand how history impacted the disenfranchisement of black and brown people in Oakland. I examined Oakland police demographics to see how the outsider views are negatively imposed onto Oakland\u2019s residents. The result left me with a proposal to understand the criminalized landscape,  which I later came to define as: A criminalized landscape is reified in the imaginations and conceptions of the public, as a place where criminal activity may or may not actually occur and is a place where control mechanisms are instituted as a result. It is spatial with definitive, yet varied, physical attributes.",
+    "category": "Strategic Finance",
+    "image": "/assets/thesis_proposal_process.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/process-masters-thesis/"
+  },
+  {
+    "id": "green-books-exhibit",
+    "title": "Green Books Exhibit",
+    "description": "This was my exhibit as part of theAmericans on the Roadseries at UC Berkeley in 2018. TitledBlack Americans on the Road, the description read: Between 1936 and 1966,The Negro Travelers\u2019 Green Bookpublished businesses throughout the United States where African Americans could patron without being tur...",
+    "full_description": "This was my exhibit as part of theAmericans on the Roadseries at UC Berkeley in 2018. TitledBlack Americans on the Road, the description read: Between 1936 and 1966,The Negro Travelers\u2019 Green Bookpublished businesses throughout the United States where African Americans could patron without being turned away. Earl Hutchinson, Sr. quoted on the display, used it to find a new \u201cpromised land free from discrimination\u201d in California. Every California listing is shown here. If using only theGreen Bookfor California, black people would have been limited to primarily the deserts and the Central Valley. The exhibit featured reproductions of fourGreen Books, postcards, and the American Automobile Association\u2019s 1943 roadmap of California and Nevada. I also displayed all the California listings, first organized by year of appearance, then by year of disappearance. The listing serves as a graphical timeline of businesses in theGreen Books.",
+    "category": "Strategic Finance",
+    "image": "/assets/green_books_exhibit.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/green-books-exhibit/"
+  },
+  {
+    "id": "2017-selection",
+    "title": "2017 Selection",
+    "description": "This is a subset of my photography from 2017. Digital and film.",
+    "full_description": "This is a subset of my photography from 2017. Digital and film.",
+    "category": "Photography",
+    "image": "/assets/2017_selection.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/2017-selection/"
+  },
+  {
+    "id": "history-murder-oscar-grant",
+    "title": "History and Murder",
+    "description": "Oakland\u2019s history directly led to the 2009 shooting ofOscar Grant. Policies by the Federal, State, and local governments implemented by Oakland, criminalized, over and over, the black population of West and East Oakland. Each major moment in history, and the billions of others between, led to the pe...",
+    "full_description": "Oakland\u2019s history directly led to the 2009 shooting ofOscar Grant. Policies by the Federal, State, and local governments implemented by Oakland, criminalized, over and over, the black population of West and East Oakland. Each major moment in history, and the billions of others between, led to the perception that the residents of West and East Oakland are criminals, but as you go back, you can reveal the origin and therefore the fraudulence of those perceptions. In 1937, redlining planned the proscenium, from which all future perception was based. The actual construction of that proscenium, was through the construction of major freeways, beginning in 1957. Through Urban Renewal in the 60s, West and East Oakland were cleared under the guise of removing criminality. In the 70s and 80s, the War on Drugs was associated with West Oakland, however, the Port and USPS were where the criminal activity was largely taking place. By 2000, police themselves (Oakland Riders) began falsifying crime in West Oakland perpetuating that perception. In 2009, the culmination of criminalization of people of color and their associated locations resulted in the murder of Oakland\u2019s own Oscar Grant. This short video reveals this history. The colors are maintained throughout the video to signify roles. In purple is the perceived perpetrator; in yellow is the criminal act; in red is the actual perpetrator. To make the video, I dug through archival video, image, and radio.\u00a0I compiled these in After Effects, but required the use of Photoshop, Illustrator, ArcGIS, and Rhino to make most of the scenes.",
+    "category": "The Case of Oscar Grant",
+    "image": "/assets/history_and_murder.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/history-murder-oscar-grant/"
+  },
+  {
+    "id": "east-bay-redlining-studio-project",
+    "title": "Signs of Redlining",
+    "description": "The goal of this project was to shed light on the impact of redlining through an installation in the landscape. Redlining is a well-documented event that created different landscapes in black and brown neighborhoods by devaluing property in those neighborhoods. The images to the left show that redli...",
+    "full_description": "The goal of this project was to shed light on the impact of redlining through an installation in the landscape. Redlining is a well-documented event that created different landscapes in black and brown neighborhoods by devaluing property in those neighborhoods. The images to the left show that redlined neighborhoods had an overall decrease in housing (middle set) and were the focus of highway building (bottom set). I chose 4 transects to install signs showing the zone it was in. Two transects went along the boundaries, and two cut across zones. The photos of the installations are at the top and were taken within 12 hours of installing them. Of note was the systematic removal of the signs in more affluent areas. The course was taught byWalter J. Hood, Professor at UC Berkeley.",
+    "category": "East Bay",
+    "image": "/assets/signs_of_redlining.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/east-bay-redlining-studio-project/"
+  },
+  {
+    "id": "fisherman-village-studio-project",
+    "title": "Fisherman\u2019s Village",
+    "description": "I worked on this project with Michelle Wray, Sieglinde Ruelens, Miguel Paix\u00e3o, and J\u00falio Assun\u00e7\u00e3o. We were tasked with creating a plan for a site where fishermen had been illegally living and fishing from. Rather than further criminalize them or move them to another location, as some had suggested, ...",
+    "full_description": "I worked on this project with Michelle Wray, Sieglinde Ruelens, Miguel Paix\u00e3o, and J\u00falio Assun\u00e7\u00e3o. We were tasked with creating a plan for a site where fishermen had been illegally living and fishing from. Rather than further criminalize them or move them to another location, as some had suggested, we decided to create a concept of a Fishermen\u2019s village, where the local fishermen could sell their produce. It would be accompanied by affordable housing, proper docks and equipment holding, as well as a high end yacht club. The project was 1-week, inBarreiro, Portugal, across the Bay from Lisbon. While I am only including the images I created to the left, our entire group visited the site, interviewed the fishermen, and researched the economic viability of the program. After presenting our concept, the Mayor commended us on the plan. The studio was taught byJohn Radke, Associate Professor at UC Berkeley, andG. Mathias Kondolf, Professor at UC Berkeley.",
+    "category": "Barreiro, Portugal",
+    "image": "/assets/fisherman_s_village.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/fisherman-village-studio-project/"
+  },
+  {
+    "id": "2016-selection",
+    "title": "2016 Selection",
+    "description": "This is a subset of my photography from 2016. Digital.",
+    "full_description": "This is a subset of my photography from 2016. Digital.",
+    "category": "Photography",
+    "image": "/assets/2016_selection.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/2016-selection/"
+  },
+  {
+    "id": "richmond-slope-studio-project",
+    "title": "Richmond Slope",
+    "description": "This project was completed after theRichmond MARSHandGeologic Wallconcepts. It is also located inRichmond, California. The idea, delineated to the left beginning with final drawings and ending with process work, was to create a public space adjacent to the Historic Ford Motor Plant which would also ...",
+    "full_description": "This project was completed after theRichmond MARSHandGeologic Wallconcepts. It is also located inRichmond, California. The idea, delineated to the left beginning with final drawings and ending with process work, was to create a public space adjacent to the Historic Ford Motor Plant which would also serve as a ferry terminal. The two-level parking structure is located at the eastern portion of the site, the design slopes downward, into the water. Between wide, downward sloping grassy strips are multiple walkways leading to both the street level by stairs, and to cantilevered viewing decks, each lower than the other. Ultimately, the slope reaches steps that lead directly into the Bay. The Ferry platform is situated between the Slope and Ford Motor Plant. The slope is broken out into a grid of lightpoles, that continue into the water as well. There is also a grove of trees at the northeastern corner, a mix between Cork Oak and Olives. The studio was taught byRichard Hindle, Assistant Professor at UC Berkeley, andRoderick Wyllie, Partner at Surfacedesign, Inc. in San Francisco.",
+    "category": "Strategic Finance",
+    "image": "/assets/richmond_slope.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/richmond-slope-studio-project/"
+  },
+  {
+    "id": "the-richmond-marsh",
+    "title": "The Richmond MARSH",
+    "description": "This project builds off theThe Bay Marsh Boardwalk, but at a new site:Richmond, California. However, it was done in conjunction with, though is separate from, theGeologic Wallconcept. The purpose of this concept is considering the future of the landscape after sea level rise has occurred and how we ...",
+    "full_description": "This project builds off theThe Bay Marsh Boardwalk, but at a new site:Richmond, California. However, it was done in conjunction with, though is separate from, theGeologic Wallconcept. The purpose of this concept is considering the future of the landscape after sea level rise has occurred and how we can remember the landscapes that once existed and defined the area. The mosaic marshland is interspersed with a mosaic of preserved, but deserted developed lands, which have been protected by walls. People visit these different spaces by connected tunnels that allow them to experience the geology of the landscape. The video collages these sites and other images over a potential experience someone could have while visiting the Richmond MARSH. The static collages imagine these in other ways. The studio was taught byRichard Hindle, Assistant Professor at UC Berkeley, andRoderick Wyllie, Partner at Surfacedesign, Inc. in San Francisco.",
+    "category": "Museum of Anthropocenic Remnants and Salvaged Heritage",
+    "image": "/assets/the_richmond_marsh.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/the-richmond-marsh/"
+  },
+  {
+    "id": "axon-bampfa",
+    "title": "Axon of BAMPFA",
+    "description": "Mixed-media axonometric and isometric of theBerkeley Art Museum and Pacific Film Archive (BAMPFA).",
+    "full_description": "Mixed-media axonometric and isometric of theBerkeley Art Museum and Pacific Film Archive (BAMPFA).",
+    "category": "Strategic Finance",
+    "image": "/assets/axon_of_bampfa.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/axon-bampfa/"
+  },
+  {
+    "id": "geologic-wall",
+    "title": "Geologic Wall",
+    "description": "This project was done in conjunction with, though is separate from, theRichmond MARSHconcept. It is also located inRichmond, California. This concept zoomed in to a smaller scale and considered what would happen if we erased the dominant feature of the landscape: the Historic Ford Motor Plant. The s...",
+    "full_description": "This project was done in conjunction with, though is separate from, theRichmond MARSHconcept. It is also located inRichmond, California. This concept zoomed in to a smaller scale and considered what would happen if we erased the dominant feature of the landscape: the Historic Ford Motor Plant. The space could be transformed into a valley-like depression, where the geology is revealed and trails exist along the upper edges and below in a constructed park. A waterfall could connect the top layer to the bottom. Boating tourists would also have a vantage point into the site. The studio was taught byRichard Hindle, Assistant Professor at UC Berkeley, andRoderick Wyllie, Partner at Surfacedesign, Inc. in San Francisco.",
+    "category": "Strategic Finance",
+    "image": "/assets/geologic_wall.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/geologic-wall/"
+  },
+  {
+    "id": "collages-oakland-berkeley",
+    "title": "Collages of Oakland and Berkeley",
+    "description": "These are collages depicting topological connections betweenOaklandandBerkeley, and in one case toSonoma County, CA andSpain.",
+    "full_description": "These are collages depicting topological connections betweenOaklandandBerkeley, and in one case toSonoma County, CA andSpain.",
+    "category": "Strategic Finance",
+    "image": "/assets/collages_of_oakland_and_berkeley.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/collages-oakland-berkeley/"
+  },
+  {
+    "id": "bay-marsh-boardwalk",
+    "title": "The Bay Marsh Boardwalk",
+    "description": "For the first studio project, I teamed up with Sarah Abroff. We were tasked with defining a transect in the Bay Area, with the only restriction being that we include water. We chose a line that does not exist visibly at the surface with an edge that is not perfectly defined, by geologists: a line of...",
+    "full_description": "For the first studio project, I teamed up with Sarah Abroff. We were tasked with defining a transect in the Bay Area, with the only restriction being that we include water. We chose a line that does not exist visibly at the surface with an edge that is not perfectly defined, by geologists: a line of liquefaction. We looked specifically atWest Oakland, California. The study looked at conditions above, and compared them to below conditions. While the line is much easier to see underground, it is nearly impossible to define above ground. Or at least, the line is softer: industry and low income communities (above liquefaction areas) transition into higher income communities (outside of liquefaction areas). However, these conditions do not line up perfectly. Our concept looked decades into the future and imagined a scenario when the next big earthquake shook the San Francisco Bay Area. With the extensive damage in liquefied areas, and the threat of sea level rise, recovery and development was halted in the West Oakland community. The result was a boardwalk acting as a landscape intervention where people could see the ruins of West Oakland, and the rise of the marsh and sea. This concept intended to highlight the inequities of risk the black and other marginalized communities face as time moves forward. The studio was taught byRichard Hindle, Assistant Professor at UC Berkeley, andRoderick Wyllie, Partner at Surfacedesign, Inc. in San Francisco.",
+    "category": "Strategic Finance",
+    "image": "/assets/the_bay_marsh_boardwalk.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/bay-marsh-boardwalk/"
+  },
+  {
+    "id": "civicspace-blog",
+    "title": "CIVICSPACE blog",
+    "description": "I started this blog to record, examine, critique, and propose planning practices and projects. It became a defining space for me where I discussed topics covering land-use, transportation, art, housing, identity, and way-finding. Visit athttp://civicspace.tumblr.com/. The photos correspond to my pos...",
+    "full_description": "I started this blog to record, examine, critique, and propose planning practices and projects. It became a defining space for me where I discussed topics covering land-use, transportation, art, housing, identity, and way-finding. Visit athttp://civicspace.tumblr.com/. The photos correspond to my post onOctober 28th, 2014. The following is the text from that post: This is the second part of a 4 part series about development in China. Thephysicaland cultural landscape is ever changing in China. In Beijing there are neighborhoods termed hutongs. I understood them as old neighborhoods, or sections, of old town, but they are really clusters of buildings with a specific architecture, which create alleyways and form a network of streets. What is so interesting about these, at the moment, is their slow demolition. With China\u2019s economy expanding, its capital city must follow and so, it appears, must remove these hutongs to make way for bigger, taller, and denser buildings. The pieces of demolished hutong aren\u2019t immediately picked up by the municipality or demolition crew, they are left behind, possibly to be reused. Some are able to recoup lost cost by obtaining demolished materials, but this surely isn\u2019t enough to make up for what is lost and not to mention cannot be good for a person\u2019s health (digging through demolished buildings). When the hutong has been laid flat then new buildings take their place to make room for more people and more business, which translates to new culture. Some businesses make it out of the hutong, while most don\u2019t. Something immaterial is lost in the destruction of the material.",
+    "category": "Strategic Finance",
+    "image": "/assets/civicspace_blog.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/civicspace-blog/"
+  },
+  {
+    "id": "pokemon-go-netlogo-simulation",
+    "title": "Pok\u00e9mon GO",
+    "description": "I created this NetLogo simulation to estimate the time it would take to catch all Pok\u00e9mon while playing Pok\u00e9mon GO. The simulation allows you to alter the urban environment, which theoretically changed the type of Pok\u00e9mon appearing, alter the passivity of the player in question, and alter the passiv...",
+    "full_description": "I created this NetLogo simulation to estimate the time it would take to catch all Pok\u00e9mon while playing Pok\u00e9mon GO. The simulation allows you to alter the urban environment, which theoretically changed the type of Pok\u00e9mon appearing, alter the passivity of the player in question, and alter the passivity of opponents. Pok\u00e9mon are represented by type and commonality. Each of the original 151 Pok\u00e9mon are included in the model. The simulation tracks a number of variables, including which Pok\u00e9mon have been caught, how many of each have been caught, and how many total have been caught. You can run the model yourself and view the entire code onNetLogo's Modeling Commons.",
+    "category": "NetLogo Simulation",
+    "image": "/assets/pok_mon_go.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/pokemon-go-netlogo-simulation/"
+  },
+  {
+    "id": "2015-selection",
+    "title": "2015 Selection",
+    "description": "This is a subset of my photography from 2015. Film.",
+    "full_description": "This is a subset of my photography from 2015. Film.",
+    "category": "Photography",
+    "image": "/assets/2015_selection.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/2015-selection/"
+  },
+  {
+    "id": "camino-de-santiago",
+    "title": "Camino de Santiago",
+    "description": "This map shows theCamino de Santiagopilgrimage that runs primarily through the northern Spain. It depicts the popularity of routes, starting points, and UNESCO sites along each route. This was chosen to go to the 2016esri User Conference.",
+    "full_description": "This map shows theCamino de Santiagopilgrimage that runs primarily through the northern Spain. It depicts the popularity of routes, starting points, and UNESCO sites along each route. This was chosen to go to the 2016esri User Conference.",
+    "category": "Strategic Finance",
+    "image": "/assets/camino_de_santiago.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/camino-de-santiago/"
+  },
+  {
+    "id": "charcoal-drawing-statue",
+    "title": "Charcoal Drawing of Statue",
+    "description": "I drew this at theacademia LAOCOONTEin Madrid, Spain.",
+    "full_description": "I drew this at theacademia LAOCOONTEin Madrid, Spain.",
+    "category": "Strategic Finance",
+    "image": "/assets/charcoal_drawing_of_statue.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/charcoal-drawing-statue/"
+  },
+  {
+    "id": "2014-selection",
+    "title": "2014 Selection",
+    "description": "This is a subset of my photography from 2014. Digital.",
+    "full_description": "This is a subset of my photography from 2014. Digital.",
+    "category": "Photography",
+    "image": "/assets/2014_selection.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/2014-selection/"
+  },
+  {
+    "id": "2013-selection",
+    "title": "2013 Selection",
+    "description": "This is a subset of my photography from 2013. Digital and film.",
+    "full_description": "This is a subset of my photography from 2013. Digital and film.",
+    "category": "Photography",
+    "image": "/assets/2013_selection.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/2013-selection/"
+  },
+  {
+    "id": "2012-selection",
+    "title": "2012 Selection",
+    "description": "This is a subset of my photography from 2012. Film.",
+    "full_description": "This is a subset of my photography from 2012. Film.",
+    "category": "Photography",
+    "image": "/assets/2012_selection.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/2012-selection/"
+  },
+  {
+    "id": "collaging-calvino",
+    "title": "Collaging Calvino",
+    "description": "After reading \u201cTrading Cities 3\u201d from Italo Calvino'sInvisible Cities, I collaged an imagined topographic map, an axonometric, and carved the model intoThe I-Ching Handbook.",
+    "full_description": "After reading \u201cTrading Cities 3\u201d from Italo Calvino'sInvisible Cities, I collaged an imagined topographic map, an axonometric, and carved the model intoThe I-Ching Handbook.",
+    "category": "Strategic Finance",
+    "image": "/assets/collaging_calvino.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/collaging-calvino/"
+  },
+  {
+    "id": "analytics-and-strategy-pubnub",
+    "title": "Analytics and Strategy",
+    "description": "During my time at PubNub, I leveraged my leadership, strategic vision, meticulous attention to detail, collaborative mindset, and ability to influence key stakeholders to spearhead and execute high-impact projects, driving growth across all stages of the marketing and sales funnel, as well as the pr...",
+    "full_description": "During my time at PubNub, I leveraged my leadership, strategic vision, meticulous attention to detail, collaborative mindset, and ability to influence key stakeholders to spearhead and execute high-impact projects, driving growth across all stages of the marketing and sales funnel, as well as the product user journey. As a result, I rose quickly from Sr. Data Analyst to Analytics Manager to Sr. Analytics Manager, my last role reporting directly to the CFO. I have detailed many initiatives I worked on below that were either impactful or illustrate how I approached a problem. C-Suite Influence I consistently and proactively communicated with the C-suite to start and enhance strategic initiatives. I\u2019ve detailed my work to increase prices and launch products on other pages, but it\u2019s worth noting other key wins here. Brand Awareness When our company was looking for direction, I demonstrated that, while our pipeline could be improved at any number of stages of the funnel, from generating more leads to getting better at winning more deals, the cascading effect of brand awareness and increasing visitors to our website would bring the largest value to our business (8% v 2% ARR gain). As a result, the CEO and CRO made brand awareness key focus area for the following two years. Monthly business reviews At one point, the CEO and myself would sit through 6 1-hour long departmental MBRs, as well as the Executive MBR that I led. Over the course of 6 months, I worked to convince the CEO and CFO that we could get more value from a single 2-hour MBR. I proposed a new structure for the Executive MBR, which included deep dives for each department and a focus on key initiatives. The result was greater visibility across the company into projects and outcomes, more collaboration, and more time dedicated to getting work done rather than creating decks. I constantly iterate based on feedback and my own vision. Revenue Operations When the new CRO introduced his vision for operations, it seemed disruptive based on incomplete discussions with his team. Recognizing that most of what he wanted was already in place, I scheduled a direct conversation and asked about his specific goals. I demonstrated that his desired outcome required only a minor adjustment to our existing process. He agreed, and we quickly executed the change. This success highlighted both the adaptability of the RevOps framework I designed two years prior and our ability to implement changes efficiently. Lead Scoring After observing a high volume of leads routed to sales with low conversion rate and volume to opportunities, I proposed a new approach to lead scoring. To build consensus, I showed the data telling the story of weak conversion among high volumes and built a model to illustrate how adjustments to scoring would have impacted opportunity creation in the previous year. The new approach modeled showed that we could have reduced the volume of leads routed to sales without losing the volume of existing opportunities. The Marketing team then adopted the strategy. As a result, we 5x\u2019d customer acquisition among sign ups while cutting routed leads in half. Building on the momentum of that win, I am leading an initiative to further improve scoring via segmentation. Contact Sales At the end of 2021, against my guidance, the growth marketing team decided to block contact sales submissions from freemail accounts. After two years of the team turning over, I was able to convince the new VP of growth to turn that channel back on by showing them the freemail cohort provided a steady, though small stream of revenue. However, I knew the sales team would find the majority of them to be spam, so I suggested a plan that added friction to the contact sales experience for freemail. Instead of being shown the booking calendar immediately on the website, they are sent an email with a link to the booking calendar. This revived channel brought in $60K eARR in the first two months, and continues to drive customer acquisition. Advertising While I built pipelines that tie our ad spend to website traffic, lead generation, opportunity creation, and customer acquisition that allows the team to self-serve, most recently I provided an analysis that first improved targeting, then recommended turning off spend. I demonstrated to our VP of Growth how we could better allocate ad spend on the Ethical Ads network by showing which pages new sign ups were coming from in addition to their product usage post spend. This resulted in targeting 10 sites, instead of hundreds. While the improvement continued to drive more sign ups and more product usage (+540% versus the previous month from the same channel), I found that other channels performed much better at converting not just at the top, but also down the funnel. Product Nurtures To incentive feature usage, I proposed specific product activation nurtures. I suggested a three email nurture that would start sending as soon as a user activated a feature for the first time. Immediately, we saw an uptick in usage (10%) among products that had associated nurtures, compared to products that didn\u2019t. Request Demo The Marketing team decided to test changing our Contact Sales CTA to a Request Demo CTA to increase submissions. While they achieved a greater volume of submissions, I brought in additional down-funnel data to show that we were converting to new opportunities at a significantly reduced rate and volume. As a result, I recommended they keep the Contact Sales CTA as it drove much greater value overall.",
+    "category": "PubNub",
+    "image": "/assets/analytics_and_strategy.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/analytics-and-strategy-pubnub/"
+  },
+  {
+    "id": "lynching-landscapes",
+    "title": "Lynching in the American Landscape",
+    "description": "This was my journey into truth and reconciliation. I believe it is my duty, as an American, to understand the depths of the history of the United States. I was taught one version of history, and it is time black and brown history became more than just a month, but a cornerstone of reality in this co...",
+    "full_description": "This was my journey into truth and reconciliation. I believe it is my duty, as an American, to understand the depths of the history of the United States. I was taught one version of history, and it is time black and brown history became more than just a month, but a cornerstone of reality in this country.\u00a0My hope is that this project helps advance the ideas of truth and reconciliation in the United States. Please visitLynching in the American Landscape, for more information, project updates, and blog entries. Below is the feed for the instagram I update for the project. Follow along on eitherInstagramorTwitter:@lynch_lands.",
+    "category": "A Record of Places and Victims\u2019 Stories",
+    "image": "/assets/lynching_in_the_american_landscape.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/lynching-landscapes/"
+  },
+  {
+    "id": "criminalized-landscape",
+    "title": "Criminalized Landscape",
+    "description": "I distilled over 400 spatial analyses into a summary set of compelling maps and graphics and presented them to a committee of professionals from a diverse set of disciplines, each of whom commented on my ability to clearly articulate my project and conclusions. A brief summary is below, though thefu...",
+    "full_description": "I distilled over 400 spatial analyses into a summary set of compelling maps and graphics and presented them to a committee of professionals from a diverse set of disciplines, each of whom commented on my ability to clearly articulate my project and conclusions. A brief summary is below, though thefull text is freely available. One aim of my thesis was to define a criminalized landscape, which came to be: A criminalized landscape is reified in the imaginations and conceptions of the public, as a place where criminal activity may or may not actually occur and is a place where control mechanisms are instituted as a result. It is spatial with definitive, yet varied, physical attributes. The abstract is quoted below for the entire project is as follows: This thesis is about the criminalized black and Latino landscapes of Oakland. It is my contention the political and corporate dynamics of the last century and a half produced perpetually criminalized landscapes, through mechanisms of discrimination (relating to people), control (relating to activity), and segregation (relating to space). Our current understanding of criminalization refers to people and activities, but there is no explicit definition of criminalization as it relates to space, therefore, the first step was to define a criminalized landscape. The method for defining criminalized landscapes involved extensive review of material regarding those who shape the urban landscape at an institutional level, as well as those who shape it at the individual level. Simultaneously, this method has contributed to the second aspect of the thesis. Using the definition as a point of departure, key historical moments in the development of Oakland were revealed to describe Oakland\u2019s history of criminalization. The next step was to spatialize those historical moments, and test the relationship between history and contemporary incidents, discretionary police stops, through regression analysis. Finally, through remapping and rethinking the criminalized landscape, images of past and present Oakland merge to formulate a vision for decriminalized landscape future. The goal of the thesis was to produce a work that both revealed and speculated. The revelations are too important to ignore, but are also too complex to consider fully in one project. Therefore, after a process of identifying and quantifying criminalized landscapes, I will propose a future scenario to assist landscape architects and planners in imagining possibilities that could change outcomes for the people of color who reside there. This thesis had four steps. The first was to define a criminalized landscape. The second was to narrate a criminalized landscape that exists in reality: Oakland, CA. This narrative pointed out alterations and demarcations to the built environment that were done in the name of reducing crime: criminalization. Then, I mapped these alterations and demarcations in order to run a statistical analysis testing a hypothesis that any area with a longer history of criminalization also had more police stops. This hypothesis is strongest when considered among all demographics and among African Americans. Finally, I collaged a reconfiguration of Oakland to rethink the criminalized landscape. The work was inspired by Dr. Victor Rios\u2019Punished: Policing the Lives of Black and Latino Boys.",
+    "category": "Oakland's Historically and Socially Constructed Image of Criminality",
+    "image": "/assets/criminalized_landscape.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/criminalized-landscape/"
+  },
+  {
+    "id": "citation-response",
+    "title": "Parking Citation Response",
+    "description": "By far one of the most challenging and nuanced projects I undertook while working on bikeshare was solving the problem of improperly parked bikes and the associated fines. We took a number of steps to reduce these citations via partnerships with the city, operations, and policy adjustments. Ultimate...",
+    "full_description": "By far one of the most challenging and nuanced projects I undertook while working on bikeshare was solving the problem of improperly parked bikes and the associated fines. We took a number of steps to reduce these citations via partnerships with the city, operations, and policy adjustments. Ultimately, my work saved $500k in fines, while leading to an improved operating environment that will save millions of dollars through the program\u2019s lifetime. Additionally, my work resulted in 1000+ bike racks being installed throughout San Francisco, and were located according to my recommendations. This was a project that occurred over four distinct steps, while also working with the city to improve the program policy requirements. Prior to launching ebikes, I created a simple suitability analysis, showing where bike parking was, where our service area would expand over time, and where we would need to drop bikes to maintain our serviceability requirements. We sent the intersection-level results to the city where they later installed bike racks. Prior to launching ebikes, I created a simple suitability analysis, showing where bike parking was, where our service area would expand over time, and where we would need to drop bikes to maintain our serviceability requirements. We sent the intersection-level results to the city where they later installed bike racks. After launching ebikes, I enhanced the analysis to look at which intersections our bikes were collecting based on ridership patterns and compared that to existing bike infrastructure (a few images from the slide deck describing this analysis are to the left). Again, we sent the intersection-level results to the city where they later installed bike racks. This was a parametric analysis, so we were able to send additional requests at a moment\u2019s notice, using new and/or historical data. I later added intersections with high citations as priority locations as well. After launching ebikes, I enhanced the analysis to look at which intersections our bikes were collecting based on ridership patterns and compared that to existing bike infrastructure (a few images from the slide deck describing this analysis are to the left). Again, we sent the intersection-level results to the city where they later installed bike racks. This was a parametric analysis, so we were able to send additional requests at a moment\u2019s notice, using new and/or historical data. I later added intersections with high citations as priority locations as well. After one month of operating, we began getting fines from the city. We had no intake system, so I managed the product for intake and response, which also allowed us to collect key data. A citation would be received via email, then parsed for data collection, then sent to a routing program to allocate jobs to the ground team. The software collected additional data on operation performance to keep the team accountable and provide a basis for contesting citations. After one month of operating, we began getting fines from the city. We had no intake system, so I managed the product for intake and response, which also allowed us to collect key data. A citation would be received via email, then parsed for data collection, then sent to a routing program to allocate jobs to the ground team. The software collected additional data on operation performance to keep the team accountable and provide a basis for contesting citations. Once the data about where and when infractions were occurring was flowing, I used machine learning to dynamically create a list of bikes for our operations team to \u201csweep\u201d prior to the city\u2019s investigators getting to the bikes and citing them. Instead of sweep the thousands of bikes on the ground, they just needed to focus on the ones most likely to receive a fine. Once the data about where and when infractions were occurring was flowing, I used machine learning to dynamically create a list of bikes for our operations team to \u201csweep\u201d prior to the city\u2019s investigators getting to the bikes and citing them. Instead of sweep the thousands of bikes on the ground, they just needed to focus on the ones most likely to receive a fine. Throughout those steps, we worked with the city to show the regressive nature of the citations. Ultimately, we succeeded in changing the policy so that some bikes received a fine, whereas the others received a warning. Using the two processes in place, our operations team was set up to properly respond; and our fines dropped by about 65%.",
+    "category": "Lyft Bikeshare",
+    "image": "/assets/parking_citation_response.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/citation-response/"
+  },
+  {
+    "id": "digital-landscape-preservation-sonoma-mountain-cemetery",
+    "title": "Digital Landscape Preservation",
+    "description": "After over 100 scans across 80-acres, I preserved the historic, and culturally important, cemetery digitally as a point cloud. The site was challenging due to its topographic complexity, limited view sheds, and numerous object obstructions. The project included developing a software that allows theS...",
+    "full_description": "After over 100 scans across 80-acres, I preserved the historic, and culturally important, cemetery digitally as a point cloud. The site was challenging due to its topographic complexity, limited view sheds, and numerous object obstructions. The project included developing a software that allows theSonoma Valley Historical Societyand the general public to search the 80-acre scan and isolate individual plots based on queries. This allows people to incorporate 3D representations of specific plots into their research and enriching that representation with information.",
+    "category": "Sonoma Mountain Cemetery",
+    "image": "/assets/digital_landscape_preservation.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/digital-landscape-preservation-sonoma-mountain-cemetery/"
+  },
+  {
+    "id": "precision-agriculture-benziger-family-winery",
+    "title": "Precision Agriculture",
+    "description": "I created an irrigation recommendation system by modeling water use at the near vine-level by ingesting data from lidar, soil moisture probes, temperature and humidity sensors I deployed throughout the property, and theWunderground weather station network. The results were recommendations for imrpov...",
+    "full_description": "I created an irrigation recommendation system by modeling water use at the near vine-level by ingesting data from lidar, soil moisture probes, temperature and humidity sensors I deployed throughout the property, and theWunderground weather station network. The results were recommendations for imrpoving irrigation practices at the Block level, and at a micro-watershed level. Blocks are defined by the vineyard managers, while the micro-watersheds were determined by a geospatial analysis I conducted. Considering recommendations at the watershed level allowed the vineyard managers to consider the downstream impacts of irrigating specific areas. Initial recommendations were done forBenziger Family Winery, with a later follow-up analysis conducted atConcannon Vineyard.",
+    "category": "Building A Sensor Mesh to Reduce Irrigation",
+    "image": "/assets/precision_agriculture.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/precision-agriculture-benziger-family-winery/"
+  },
+  {
+    "id": "operation-management",
+    "title": "Operation Management",
+    "description": "Theft and Loss Theft and loss is a major problem for the bikeshare program; these result from a number of factors, including operational mistakes and oversized fleets. Lyft bikes exist in different statuses, and each status represents allowed behaviors for the bikes. Keeping bikes in the proper stat...",
+    "full_description": "Theft and Loss Theft and loss is a major problem for the bikeshare program; these result from a number of factors, including operational mistakes and oversized fleets. Lyft bikes exist in different statuses, and each status represents allowed behaviors for the bikes. Keeping bikes in the proper status is an operational task, however, our operator was failing to switch statuses appropriately. In addition to working to keep our operator compliant, I devised the program, and led the cross-functional effort, to auto-switch statuses based on several criteria, and then fine-tuned it after analyzing performance. This process saved over $230k in avoided losses in the San Francisco market alone, and was a feature requested, then implemented, by all markets, across rideable. After Shelter-in-Place began during the covid-19 pandemic, I evaluated our contractor\u2019s capabilities of meeting KPIs at various fleet sizes. I made recommendations accordingly to reduce our fleet size which has resulted in over $215K in fewer losses Daily Management I was responsible for reporting and tracking daily metrics and raising issues when they came up. To facilitate this, I created a report for General Managers to view the most important metrics at glance (which you can see a sample of to the left). This included rides, availability, serviceability, operational performance, among others. This report was often cited as a favorite, and most useful, among the GMs, as well as Operations Managers. Geography As of June 2021,all shapes created for the Bay Wheels systemwere maintained and created by me. I worked with cross-functional teams to ensure changes did not conflict with plans and communicated them ahead of time. The initial boundaries were much smaller and required me to create robust geospatial analyses to determine, then gain buy-in from stakeholders within and outside the organization. From a relatively small area, I managed expansion to double our service area. The only region that we did not expand to while I was with the team, was Golden Gate Park. Additionally, I created No Parking Zones, either prior to a problem arising, or upon request (though I would challenge these when the implementation did not make sense). The result of these efforts has been a beautiful service area in app and, most importantly, a smooth riding experience system-wide.",
+    "category": "Lyft Bikeshare",
+    "image": "/assets/operation_management.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/operation-management/"
+  },
+  {
+    "id": "2020-selection",
+    "title": "2020 Selection",
+    "description": "This is a subset of my photography from 2020. Digital and film.",
+    "full_description": "This is a subset of my photography from 2020. Digital and film.",
+    "category": "Photography",
+    "image": "/assets/2020_selection.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/2020-selection/"
+  },
+  {
+    "id": "2019-selection",
+    "title": "2019 Selection",
+    "description": "This is a subset of my photography from 2019. Digital and film.",
+    "full_description": "This is a subset of my photography from 2019. Digital and film.",
+    "category": "Photography",
+    "image": "/assets/2019_selection.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/2019-selection/"
+  },
+  {
+    "id": "bywater-bread",
+    "title": "Bywater Bread",
+    "description": "I make sourdough bread, experimenting as I go along. Below is the feed for the instagram I update whenever I remember to add the latest loaves. Follow along on eitherInstagram:@bywater_bread. DM the instagram account to put in an order.",
+    "full_description": "I make sourdough bread, experimenting as I go along. Below is the feed for the instagram I update whenever I remember to add the latest loaves. Follow along on eitherInstagram:@bywater_bread. DM the instagram account to put in an order.",
+    "category": "Strategic Finance",
+    "image": "/assets/bywater_bread.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/bywater-bread/"
+  },
+  {
+    "id": "permit-application-scootershare",
+    "title": "Permit Application",
+    "description": "In 2019, Lyft applied to be part of the newly launched Scootershare program. While Lyft was not awarded, the application, the sectionsI worked on received the highest marks possible. Below are some quotes. In regards to \u201cDistribution Strategy,\u201d specifically \u201cMethods for deploying and redistributing ...",
+    "full_description": "In 2019, Lyft applied to be part of the newly launched Scootershare program. While Lyft was not awarded, the application, the sectionsI worked on received the highest marks possible. Below are some quotes. In regards to \u201cDistribution Strategy,\u201d specifically \u201cMethods for deploying and redistributing scooters consistent with Distribution Guidelines and Requirements,\u201d the judges wrote: This proposal includes unique approaches demonstrating the highest level of ability to solving known challenges and concerns, and substantially exceeding the minimum requirements because applicant provides phasing plan with maps, and their deployment methodology prioritizes Key Neighborhoods as well as locations that enhance access to transit and serve high travel corridors\u2026 In regards to \u201cEquitable Operations,\u201d specifically \u201cService to Key Neighborhoods, as defined in the Distribution Guidelines and Requirements,\u201d the judges wrote: This proposal substantially exceeds the minimum requirements because the applicant's deployment methodology prioritizes Key Neighborhoods as well as locations that enhance access to transit and serve high travel corridors. The application also commits to ensuring coverage and availability in Key Neighborhoods (propose dedicating 20% of the scooter fleet to service San Francisco residents who reside in Key Neighborhoods). Additionally, in each phase, regardless of permitted fleet size, Lyft will deploy scooters on a daily basis throughout the Key Neighborhoods, exceeding the minimum number of scooters outlined in the Minimum Threshold Table. In regards to \u201cEquitable Operations,\u201d specifically \u201cService to neighborhoods without existing powered scooter share service,\u201d the judges wrote: This proposal substantially exceeds the minimum requirements because the applicant commits to serving entire Core Service Area (including areas outside of existing scooter service areas), as well as Richmond District (if granted 2,500 scooters). Additionally, if granted 2,500 scooters, Lyft will add service to the northern portion of the Sunset in Phase 2 and to the southern portion, primarily West Portal, in Phase 3. Otherwise, Lyft will expand to the Richmond and a portion of the Presidio in Phase 2\u2026",
+    "category": "Lyft Scootershare",
+    "image": "/assets/permit_application.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/permit-application-scootershare/"
+  },
+  {
+    "id": "station-network-expansion",
+    "title": "Station Network Expansion",
+    "description": "I sited 100 bikeshare stations for the Lyft\u2019s Bay Wheels (fka Ford GoBike) system, of which at least60 were installedprior to my leaving Lyft. Several of these were in neighborhoods where the public\u2019s input made it a challenge to install. I supported the community outreach meetings to help bring mor...",
+    "full_description": "I sited 100 bikeshare stations for the Lyft\u2019s Bay Wheels (fka Ford GoBike) system, of which at least60 were installedprior to my leaving Lyft. Several of these were in neighborhoods where the public\u2019s input made it a challenge to install. I supported the community outreach meetings to help bring more stations to all San Francisco neighborhoods.",
+    "category": "Lyft Bikeshare",
+    "image": "/assets/station_network_expansion.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/station-network-expansion/"
+  },
+  {
+    "id": "2018-selection",
+    "title": "2018 Selection",
+    "description": "This is a subset of my photography from 2018. Digital.",
+    "full_description": "This is a subset of my photography from 2018. Digital.",
+    "category": "Photography",
+    "image": "/assets/2018_selection.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/2018-selection/"
+  },
+  {
+    "id": "process-masters-thesis",
+    "title": "Thesis Proposal Process",
+    "description": "Crafting the proposal for my thesis,Criminalized Landscape, was an intensive research process entailing multiple methods to understand space, time, and problem. I visited various neighborhoods around Oakland, taking photographs and drawing on the spot, while collaging back in the studio. I mapped po...",
+    "full_description": "Crafting the proposal for my thesis,Criminalized Landscape, was an intensive research process entailing multiple methods to understand space, time, and problem. I visited various neighborhoods around Oakland, taking photographs and drawing on the spot, while collaging back in the studio. I mapped police stops, arrests, race, and redlined neighborhoods, to understand how history impacted the criminalization of black and brown people in Oakland. I overlaid redlined neighborhoods onto property values to understand how history impacted the disenfranchisement of black and brown people in Oakland. I examined Oakland police demographics to see how the outsider views are negatively imposed onto Oakland\u2019s residents. The result left me with a proposal to understand the criminalized landscape,  which I later came to define as: A criminalized landscape is reified in the imaginations and conceptions of the public, as a place where criminal activity may or may not actually occur and is a place where control mechanisms are instituted as a result. It is spatial with definitive, yet varied, physical attributes.",
+    "category": "Strategic Finance",
+    "image": "/assets/thesis_proposal_process.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/process-masters-thesis/"
+  },
+  {
+    "id": "green-books-exhibit",
+    "title": "Green Books Exhibit",
+    "description": "This was my exhibit as part of theAmericans on the Roadseries at UC Berkeley in 2018. TitledBlack Americans on the Road, the description read: Between 1936 and 1966,The Negro Travelers\u2019 Green Bookpublished businesses throughout the United States where African Americans could patron without being tur...",
+    "full_description": "This was my exhibit as part of theAmericans on the Roadseries at UC Berkeley in 2018. TitledBlack Americans on the Road, the description read: Between 1936 and 1966,The Negro Travelers\u2019 Green Bookpublished businesses throughout the United States where African Americans could patron without being turned away. Earl Hutchinson, Sr. quoted on the display, used it to find a new \u201cpromised land free from discrimination\u201d in California. Every California listing is shown here. If using only theGreen Bookfor California, black people would have been limited to primarily the deserts and the Central Valley. The exhibit featured reproductions of fourGreen Books, postcards, and the American Automobile Association\u2019s 1943 roadmap of California and Nevada. I also displayed all the California listings, first organized by year of appearance, then by year of disappearance. The listing serves as a graphical timeline of businesses in theGreen Books.",
+    "category": "Strategic Finance",
+    "image": "/assets/green_books_exhibit.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/green-books-exhibit/"
+  },
+  {
+    "id": "2017-selection",
+    "title": "2017 Selection",
+    "description": "This is a subset of my photography from 2017. Digital and film.",
+    "full_description": "This is a subset of my photography from 2017. Digital and film.",
+    "category": "Photography",
+    "image": "/assets/2017_selection.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/2017-selection/"
+  },
+  {
+    "id": "history-murder-oscar-grant",
+    "title": "History and Murder",
+    "description": "Oakland\u2019s history directly led to the 2009 shooting ofOscar Grant. Policies by the Federal, State, and local governments implemented by Oakland, criminalized, over and over, the black population of West and East Oakland. Each major moment in history, and the billions of others between, led to the pe...",
+    "full_description": "Oakland\u2019s history directly led to the 2009 shooting ofOscar Grant. Policies by the Federal, State, and local governments implemented by Oakland, criminalized, over and over, the black population of West and East Oakland. Each major moment in history, and the billions of others between, led to the perception that the residents of West and East Oakland are criminals, but as you go back, you can reveal the origin and therefore the fraudulence of those perceptions. In 1937, redlining planned the proscenium, from which all future perception was based. The actual construction of that proscenium, was through the construction of major freeways, beginning in 1957. Through Urban Renewal in the 60s, West and East Oakland were cleared under the guise of removing criminality. In the 70s and 80s, the War on Drugs was associated with West Oakland, however, the Port and USPS were where the criminal activity was largely taking place. By 2000, police themselves (Oakland Riders) began falsifying crime in West Oakland perpetuating that perception. In 2009, the culmination of criminalization of people of color and their associated locations resulted in the murder of Oakland\u2019s own Oscar Grant. This short video reveals this history. The colors are maintained throughout the video to signify roles. In purple is the perceived perpetrator; in yellow is the criminal act; in red is the actual perpetrator. To make the video, I dug through archival video, image, and radio.\u00a0I compiled these in After Effects, but required the use of Photoshop, Illustrator, ArcGIS, and Rhino to make most of the scenes.",
+    "category": "The Case of Oscar Grant",
+    "image": "/assets/history_and_murder.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/history-murder-oscar-grant/"
+  },
+  {
+    "id": "east-bay-redlining-studio-project",
+    "title": "Signs of Redlining",
+    "description": "The goal of this project was to shed light on the impact of redlining through an installation in the landscape. Redlining is a well-documented event that created different landscapes in black and brown neighborhoods by devaluing property in those neighborhoods. The images to the left show that redli...",
+    "full_description": "The goal of this project was to shed light on the impact of redlining through an installation in the landscape. Redlining is a well-documented event that created different landscapes in black and brown neighborhoods by devaluing property in those neighborhoods. The images to the left show that redlined neighborhoods had an overall decrease in housing (middle set) and were the focus of highway building (bottom set). I chose 4 transects to install signs showing the zone it was in. Two transects went along the boundaries, and two cut across zones. The photos of the installations are at the top and were taken within 12 hours of installing them. Of note was the systematic removal of the signs in more affluent areas. The course was taught byWalter J. Hood, Professor at UC Berkeley.",
+    "category": "East Bay",
+    "image": "/assets/signs_of_redlining.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/east-bay-redlining-studio-project/"
+  },
+  {
+    "id": "fisherman-village-studio-project",
+    "title": "Fisherman\u2019s Village",
+    "description": "I worked on this project with Michelle Wray, Sieglinde Ruelens, Miguel Paix\u00e3o, and J\u00falio Assun\u00e7\u00e3o. We were tasked with creating a plan for a site where fishermen had been illegally living and fishing from. Rather than further criminalize them or move them to another location, as some had suggested, ...",
+    "full_description": "I worked on this project with Michelle Wray, Sieglinde Ruelens, Miguel Paix\u00e3o, and J\u00falio Assun\u00e7\u00e3o. We were tasked with creating a plan for a site where fishermen had been illegally living and fishing from. Rather than further criminalize them or move them to another location, as some had suggested, we decided to create a concept of a Fishermen\u2019s village, where the local fishermen could sell their produce. It would be accompanied by affordable housing, proper docks and equipment holding, as well as a high end yacht club. The project was 1-week, inBarreiro, Portugal, across the Bay from Lisbon. While I am only including the images I created to the left, our entire group visited the site, interviewed the fishermen, and researched the economic viability of the program. After presenting our concept, the Mayor commended us on the plan. The studio was taught byJohn Radke, Associate Professor at UC Berkeley, andG. Mathias Kondolf, Professor at UC Berkeley.",
+    "category": "Barreiro, Portugal",
+    "image": "/assets/fisherman_s_village.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/fisherman-village-studio-project/"
+  },
+  {
+    "id": "2016-selection",
+    "title": "2016 Selection",
+    "description": "This is a subset of my photography from 2016. Digital.",
+    "full_description": "This is a subset of my photography from 2016. Digital.",
+    "category": "Photography",
+    "image": "/assets/2016_selection.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/2016-selection/"
+  },
+  {
+    "id": "richmond-slope-studio-project",
+    "title": "Richmond Slope",
+    "description": "This project was completed after theRichmond MARSHandGeologic Wallconcepts. It is also located inRichmond, California. The idea, delineated to the left beginning with final drawings and ending with process work, was to create a public space adjacent to the Historic Ford Motor Plant which would also ...",
+    "full_description": "This project was completed after theRichmond MARSHandGeologic Wallconcepts. It is also located inRichmond, California. The idea, delineated to the left beginning with final drawings and ending with process work, was to create a public space adjacent to the Historic Ford Motor Plant which would also serve as a ferry terminal. The two-level parking structure is located at the eastern portion of the site, the design slopes downward, into the water. Between wide, downward sloping grassy strips are multiple walkways leading to both the street level by stairs, and to cantilevered viewing decks, each lower than the other. Ultimately, the slope reaches steps that lead directly into the Bay. The Ferry platform is situated between the Slope and Ford Motor Plant. The slope is broken out into a grid of lightpoles, that continue into the water as well. There is also a grove of trees at the northeastern corner, a mix between Cork Oak and Olives. The studio was taught byRichard Hindle, Assistant Professor at UC Berkeley, andRoderick Wyllie, Partner at Surfacedesign, Inc. in San Francisco.",
+    "category": "Strategic Finance",
+    "image": "/assets/richmond_slope.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/richmond-slope-studio-project/"
+  },
+  {
+    "id": "the-richmond-marsh",
+    "title": "The Richmond MARSH",
+    "description": "This project builds off theThe Bay Marsh Boardwalk, but at a new site:Richmond, California. However, it was done in conjunction with, though is separate from, theGeologic Wallconcept. The purpose of this concept is considering the future of the landscape after sea level rise has occurred and how we ...",
+    "full_description": "This project builds off theThe Bay Marsh Boardwalk, but at a new site:Richmond, California. However, it was done in conjunction with, though is separate from, theGeologic Wallconcept. The purpose of this concept is considering the future of the landscape after sea level rise has occurred and how we can remember the landscapes that once existed and defined the area. The mosaic marshland is interspersed with a mosaic of preserved, but deserted developed lands, which have been protected by walls. People visit these different spaces by connected tunnels that allow them to experience the geology of the landscape. The video collages these sites and other images over a potential experience someone could have while visiting the Richmond MARSH. The static collages imagine these in other ways. The studio was taught byRichard Hindle, Assistant Professor at UC Berkeley, andRoderick Wyllie, Partner at Surfacedesign, Inc. in San Francisco.",
+    "category": "Museum of Anthropocenic Remnants and Salvaged Heritage",
+    "image": "/assets/the_richmond_marsh.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/the-richmond-marsh/"
+  },
+  {
+    "id": "axon-bampfa",
+    "title": "Axon of BAMPFA",
+    "description": "Mixed-media axonometric and isometric of theBerkeley Art Museum and Pacific Film Archive (BAMPFA).",
+    "full_description": "Mixed-media axonometric and isometric of theBerkeley Art Museum and Pacific Film Archive (BAMPFA).",
+    "category": "Strategic Finance",
+    "image": "/assets/axon_of_bampfa.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/axon-bampfa/"
+  },
+  {
+    "id": "geologic-wall",
+    "title": "Geologic Wall",
+    "description": "This project was done in conjunction with, though is separate from, theRichmond MARSHconcept. It is also located inRichmond, California. This concept zoomed in to a smaller scale and considered what would happen if we erased the dominant feature of the landscape: the Historic Ford Motor Plant. The s...",
+    "full_description": "This project was done in conjunction with, though is separate from, theRichmond MARSHconcept. It is also located inRichmond, California. This concept zoomed in to a smaller scale and considered what would happen if we erased the dominant feature of the landscape: the Historic Ford Motor Plant. The space could be transformed into a valley-like depression, where the geology is revealed and trails exist along the upper edges and below in a constructed park. A waterfall could connect the top layer to the bottom. Boating tourists would also have a vantage point into the site. The studio was taught byRichard Hindle, Assistant Professor at UC Berkeley, andRoderick Wyllie, Partner at Surfacedesign, Inc. in San Francisco.",
+    "category": "Strategic Finance",
+    "image": "/assets/geologic_wall.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/geologic-wall/"
+  },
+  {
+    "id": "collages-oakland-berkeley",
+    "title": "Collages of Oakland and Berkeley",
+    "description": "These are collages depicting topological connections betweenOaklandandBerkeley, and in one case toSonoma County, CA andSpain.",
+    "full_description": "These are collages depicting topological connections betweenOaklandandBerkeley, and in one case toSonoma County, CA andSpain.",
+    "category": "Strategic Finance",
+    "image": "/assets/collages_of_oakland_and_berkeley.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/collages-oakland-berkeley/"
+  },
+  {
+    "id": "bay-marsh-boardwalk",
+    "title": "The Bay Marsh Boardwalk",
+    "description": "For the first studio project, I teamed up with Sarah Abroff. We were tasked with defining a transect in the Bay Area, with the only restriction being that we include water. We chose a line that does not exist visibly at the surface with an edge that is not perfectly defined, by geologists: a line of...",
+    "full_description": "For the first studio project, I teamed up with Sarah Abroff. We were tasked with defining a transect in the Bay Area, with the only restriction being that we include water. We chose a line that does not exist visibly at the surface with an edge that is not perfectly defined, by geologists: a line of liquefaction. We looked specifically atWest Oakland, California. The study looked at conditions above, and compared them to below conditions. While the line is much easier to see underground, it is nearly impossible to define above ground. Or at least, the line is softer: industry and low income communities (above liquefaction areas) transition into higher income communities (outside of liquefaction areas). However, these conditions do not line up perfectly. Our concept looked decades into the future and imagined a scenario when the next big earthquake shook the San Francisco Bay Area. With the extensive damage in liquefied areas, and the threat of sea level rise, recovery and development was halted in the West Oakland community. The result was a boardwalk acting as a landscape intervention where people could see the ruins of West Oakland, and the rise of the marsh and sea. This concept intended to highlight the inequities of risk the black and other marginalized communities face as time moves forward. The studio was taught byRichard Hindle, Assistant Professor at UC Berkeley, andRoderick Wyllie, Partner at Surfacedesign, Inc. in San Francisco.",
+    "category": "Strategic Finance",
+    "image": "/assets/the_bay_marsh_boardwalk.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/bay-marsh-boardwalk/"
+  },
+  {
+    "id": "civicspace-blog",
+    "title": "CIVICSPACE blog",
+    "description": "I started this blog to record, examine, critique, and propose planning practices and projects. It became a defining space for me where I discussed topics covering land-use, transportation, art, housing, identity, and way-finding. Visit athttp://civicspace.tumblr.com/. The photos correspond to my pos...",
+    "full_description": "I started this blog to record, examine, critique, and propose planning practices and projects. It became a defining space for me where I discussed topics covering land-use, transportation, art, housing, identity, and way-finding. Visit athttp://civicspace.tumblr.com/. The photos correspond to my post onOctober 28th, 2014. The following is the text from that post: This is the second part of a 4 part series about development in China. Thephysicaland cultural landscape is ever changing in China. In Beijing there are neighborhoods termed hutongs. I understood them as old neighborhoods, or sections, of old town, but they are really clusters of buildings with a specific architecture, which create alleyways and form a network of streets. What is so interesting about these, at the moment, is their slow demolition. With China\u2019s economy expanding, its capital city must follow and so, it appears, must remove these hutongs to make way for bigger, taller, and denser buildings. The pieces of demolished hutong aren\u2019t immediately picked up by the municipality or demolition crew, they are left behind, possibly to be reused. Some are able to recoup lost cost by obtaining demolished materials, but this surely isn\u2019t enough to make up for what is lost and not to mention cannot be good for a person\u2019s health (digging through demolished buildings). When the hutong has been laid flat then new buildings take their place to make room for more people and more business, which translates to new culture. Some businesses make it out of the hutong, while most don\u2019t. Something immaterial is lost in the destruction of the material.",
+    "category": "Strategic Finance",
+    "image": "/assets/civicspace_blog.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/civicspace-blog/"
+  },
+  {
+    "id": "pokemon-go-netlogo-simulation",
+    "title": "Pok\u00e9mon GO",
+    "description": "I created this NetLogo simulation to estimate the time it would take to catch all Pok\u00e9mon while playing Pok\u00e9mon GO. The simulation allows you to alter the urban environment, which theoretically changed the type of Pok\u00e9mon appearing, alter the passivity of the player in question, and alter the passiv...",
+    "full_description": "I created this NetLogo simulation to estimate the time it would take to catch all Pok\u00e9mon while playing Pok\u00e9mon GO. The simulation allows you to alter the urban environment, which theoretically changed the type of Pok\u00e9mon appearing, alter the passivity of the player in question, and alter the passivity of opponents. Pok\u00e9mon are represented by type and commonality. Each of the original 151 Pok\u00e9mon are included in the model. The simulation tracks a number of variables, including which Pok\u00e9mon have been caught, how many of each have been caught, and how many total have been caught. You can run the model yourself and view the entire code onNetLogo's Modeling Commons.",
+    "category": "NetLogo Simulation",
+    "image": "/assets/pok_mon_go.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/pokemon-go-netlogo-simulation/"
+  },
+  {
+    "id": "2015-selection",
+    "title": "2015 Selection",
+    "description": "This is a subset of my photography from 2015. Film.",
+    "full_description": "This is a subset of my photography from 2015. Film.",
+    "category": "Photography",
+    "image": "/assets/2015_selection.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/2015-selection/"
+  },
+  {
+    "id": "camino-de-santiago",
+    "title": "Camino de Santiago",
+    "description": "This map shows theCamino de Santiagopilgrimage that runs primarily through the northern Spain. It depicts the popularity of routes, starting points, and UNESCO sites along each route. This was chosen to go to the 2016esri User Conference.",
+    "full_description": "This map shows theCamino de Santiagopilgrimage that runs primarily through the northern Spain. It depicts the popularity of routes, starting points, and UNESCO sites along each route. This was chosen to go to the 2016esri User Conference.",
+    "category": "Strategic Finance",
+    "image": "/assets/camino_de_santiago.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/camino-de-santiago/"
+  },
+  {
+    "id": "charcoal-drawing-statue",
+    "title": "Charcoal Drawing of Statue",
+    "description": "I drew this at theacademia LAOCOONTEin Madrid, Spain.",
+    "full_description": "I drew this at theacademia LAOCOONTEin Madrid, Spain.",
+    "category": "Strategic Finance",
+    "image": "/assets/charcoal_drawing_of_statue.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/charcoal-drawing-statue/"
+  },
+  {
+    "id": "2014-selection",
+    "title": "2014 Selection",
+    "description": "This is a subset of my photography from 2014. Digital.",
+    "full_description": "This is a subset of my photography from 2014. Digital.",
+    "category": "Photography",
+    "image": "/assets/2014_selection.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/2014-selection/"
+  },
+  {
+    "id": "2013-selection",
+    "title": "2013 Selection",
+    "description": "This is a subset of my photography from 2013. Digital and film.",
+    "full_description": "This is a subset of my photography from 2013. Digital and film.",
+    "category": "Photography",
+    "image": "/assets/2013_selection.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/2013-selection/"
+  },
+  {
+    "id": "2012-selection",
+    "title": "2012 Selection",
+    "description": "This is a subset of my photography from 2012. Film.",
+    "full_description": "This is a subset of my photography from 2012. Film.",
+    "category": "Photography",
+    "image": "/assets/2012_selection.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/2012-selection/"
+  },
+  {
+    "id": "collaging-calvino",
+    "title": "Collaging Calvino",
+    "description": "After reading \u201cTrading Cities 3\u201d from Italo Calvino'sInvisible Cities, I collaged an imagined topographic map, an axonometric, and carved the model intoThe I-Ching Handbook.",
+    "full_description": "After reading \u201cTrading Cities 3\u201d from Italo Calvino'sInvisible Cities, I collaged an imagined topographic map, an axonometric, and carved the model intoThe I-Ching Handbook.",
+    "category": "Strategic Finance",
+    "image": "/assets/collaging_calvino.jpg",
+    "tags": [
+      "Imported",
+      "Squarespace"
+    ],
+    "url": "https://www.jamesonreeves.com/collaging-calvino/"
   }
 ]
