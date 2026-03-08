@@ -1,73 +1,46 @@
-# React + TypeScript + Vite
+# Jameson Reeves | Business Architect Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-performance, data-driven portfolio for a Business Architect, built with React, TypeScript, and a minimalist "Algorithmic Ledger" aesthetic.
 
-Currently, two official plugins are available:
+## Tech Stack
+- **Frontend:** React (Vite) + TypeScript
+- **Styling:** Vanilla CSS (Grayscale-to-Cobalt aesthetic)
+- **Data:** Decoupled JSON-based content management
+- **Deployment:** Vercel (Auto-deploys from GitHub `main` branch)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## System Architecture
 
-## React Compiler
+### 1. Decoupled Content
+Almost all text and data on the site is separated from the code:
+- `src/data/projects.json`: All project case studies, including images, full descriptions, and metadata.
+- `src/data/site-content.json`: Global site messaging, hero titles, navigation, and footer text.
+- `src/data/landing-pages.json`: Configuration for personalized job application routes (e.g., `/apply/company-name`).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 2. Strategic Features
+- **Archive Page:** A complete, searchable repository of 36+ projects and research initiatives.
+- **Revenue Simulator:** A high-fidelity interactive modeling tool located within specific case studies.
+- **Grayscale Hover:** Project images utilize a sophisticated grayscale-to-color transition to maintain a clean "ledger" look.
 
-## Expanding the ESLint configuration
+## Operations
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### How to Edit Content
+To update any text on the site, simply modify the corresponding JSON file in `src/data/`. For the hero title, you can use markdown-style formatting:
+- `**text**` for bold
+- `*text*` for cobalt italics
+- `~text~` for strikethrough (strategic "redaction")
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Running the Scraper
+If you need to refresh the project data from the legacy Squarespace site:
+1. Ensure the virtual environment is active: `source venv/bin/activate`
+2. Run the script: `python3 scrape_projects.py`
+This will crawl `jamesonreeves.com`, download new assets to `public/assets/`, and update `projects.json`.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Local Development
+```bash
+npm install
+npm run dev
 ```
+Visit `http://localhost:5173` to view the site.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## Deployment
+Any push to the `main` branch on GitHub will trigger a new production build on Vercel.
